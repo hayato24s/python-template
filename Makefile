@@ -1,3 +1,7 @@
+install-dev-tools:
+	pip install --upgrade pip
+	pip install black isort flake8
+
 install:
 	pip install --upgrade pip
 	pip install -r requirements.txt
